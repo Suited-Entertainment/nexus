@@ -9,3 +9,5 @@ require (
 	github.com/ugorji/go/codec v1.2.7
 	golang.org/x/crypto v0.0.0-20221010152910-d6f0a8c073c2
 )
+
+replace github.com/gammazero/nexus => github.com/Suited-Entertainment/nexus latest
