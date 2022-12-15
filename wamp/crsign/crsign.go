@@ -8,7 +8,7 @@ import (
 	"encoding/base64"
 	"hash"
 
-	"github.com/gammazero/nexus/v3/wamp"
+	"github.com/Suited-Entertainment/nexus/v3/wamp"
 	"golang.org/x/crypto/pbkdf2"
 )
 

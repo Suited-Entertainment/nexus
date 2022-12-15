@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Suited-Entertainment/nexus/v3/client"
+	"github.com/Suited-Entertainment/nexus/v3/wamp"
 	"github.com/fortytw2/leaktest"
-	"github.com/gammazero/nexus/v3/client"
-	"github.com/gammazero/nexus/v3/wamp"
 )
 
 const (

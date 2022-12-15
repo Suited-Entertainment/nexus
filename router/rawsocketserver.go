@@ -7,7 +7,7 @@ import (
 	"net"
 	"time"
 
-	"github.com/gammazero/nexus/v3/transport"
+	"github.com/Suited-Entertainment/nexus/v3/transport"
 )
 
 // RawSocketServer handles socket connections.

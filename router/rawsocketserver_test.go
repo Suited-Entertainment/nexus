@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
+	"github.com/Suited-Entertainment/nexus/v3/transport"
+	"github.com/Suited-Entertainment/nexus/v3/transport/serialize"
+	"github.com/Suited-Entertainment/nexus/v3/wamp"
 	"github.com/fortytw2/leaktest"
-	"github.com/gammazero/nexus/v3/transport"
-	"github.com/gammazero/nexus/v3/transport/serialize"
-	"github.com/gammazero/nexus/v3/wamp"
 )
 
 const tcpAddr = "127.0.0.1:8181"

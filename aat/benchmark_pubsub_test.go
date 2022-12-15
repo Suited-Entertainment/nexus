@@ -5,8 +5,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/gammazero/nexus/v3/client"
-	"github.com/gammazero/nexus/v3/wamp"
+	"github.com/Suited-Entertainment/nexus/v3/client"
+	"github.com/Suited-Entertainment/nexus/v3/wamp"
 )
 
 const benchMsgCount = 5

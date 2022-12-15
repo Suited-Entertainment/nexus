@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gammazero/nexus/v3/router"
-	"github.com/gammazero/nexus/v3/wamp"
+	"github.com/Suited-Entertainment/nexus/v3/router"
+	"github.com/Suited-Entertainment/nexus/v3/wamp"
 )
 
 func main() {

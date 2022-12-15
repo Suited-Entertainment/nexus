@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Suited-Entertainment/nexus/v3/wamp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/gammazero/nexus/v3/wamp"
 )
 
 var dataItem = []map[string]interface{}{{

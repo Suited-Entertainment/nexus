@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/gammazero/nexus/v3/router/auth"
-	"github.com/gammazero/nexus/v3/stdlog"
-	"github.com/gammazero/nexus/v3/transport"
-	"github.com/gammazero/nexus/v3/wamp"
+	"github.com/Suited-Entertainment/nexus/v3/router/auth"
+	"github.com/Suited-Entertainment/nexus/v3/stdlog"
+	"github.com/Suited-Entertainment/nexus/v3/transport"
+	"github.com/Suited-Entertainment/nexus/v3/wamp"
 )
 
 // Special ID for meta session.

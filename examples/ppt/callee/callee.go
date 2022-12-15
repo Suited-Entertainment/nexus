@@ -2,15 +2,15 @@ package main
 
 import (
 	"context"
-	"github.com/gammazero/nexus/v3/transport/serialize"
+	"github.com/Suited-Entertainment/nexus/v3/transport/serialize"
 	"log"
 	"math/rand"
 	"os"
 	"os/signal"
 	"time"
 
-	"github.com/gammazero/nexus/v3/client"
-	"github.com/gammazero/nexus/v3/wamp"
+	"github.com/Suited-Entertainment/nexus/v3/client"
+	"github.com/Suited-Entertainment/nexus/v3/wamp"
 )
 
 const (

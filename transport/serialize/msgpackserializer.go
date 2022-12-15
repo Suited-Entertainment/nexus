@@ -4,7 +4,7 @@ import (
 	"errors"
 	"reflect"
 
-	"github.com/gammazero/nexus/v3/wamp"
+	"github.com/Suited-Entertainment/nexus/v3/wamp"
 	"github.com/ugorji/go/codec"
 )
 

@@ -5,8 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/gammazero/nexus/v3/examples/newclient"
-	"github.com/gammazero/nexus/v3/wamp"
+	"github.com/Suited-Entertainment/nexus/v3/examples/newclient"
+	"github.com/Suited-Entertainment/nexus/v3/wamp"
 )
 
 func main() {
