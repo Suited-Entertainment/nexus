@@ -38,6 +38,13 @@ func (s *JSONSerializer) Deserialize(data []byte) (wamp.Message, error) {
 		return nil, errors.New("invalid message")
 	}
 
+	// Fixes case where the server passes an array to kwArgs(argument 4) instead of a map
+	// Fix by swapping positions with args(argument 3)
+	if len(v) >= 5 && reflect.TypeOf(v[4]).Kind() == reflect.Slice {
+		v[3] = v[4]
+		v[4] = wamp.Dict{}
+	}
+
 	// json deserializer gives us an uint64 instead of an int64, whyever it
 	// doesn't matter here, because valid values are only within an 8bit range.
 	typ, ok := v[0].(uint64)
